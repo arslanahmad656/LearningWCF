@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebService1", "WebService1\WebService1.csproj", "{061A16FA-1C01-4535-872B-7FF655324AD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloServiceClient", "HelloServiceClient\HelloServiceClient.csproj", "{C3D37B35-1AD4-400F-AA27-DC9542F0CF78}"
+	ProjectSection(ProjectDependencies) = postProject
+		{061A16FA-1C01-4535-872B-7FF655324AD1} = {061A16FA-1C01-4535-872B-7FF655324AD1}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{061A16FA-1C01-4535-872B-7FF655324AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{061A16FA-1C01-4535-872B-7FF655324AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{061A16FA-1C01-4535-872B-7FF655324AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3D37B35-1AD4-400F-AA27-DC9542F0CF78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3D37B35-1AD4-400F-AA27-DC9542F0CF78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3D37B35-1AD4-400F-AA27-DC9542F0CF78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3D37B35-1AD4-400F-AA27-DC9542F0CF78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
