@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloRemotingServiceHost", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloRemotingServiceClient", "HelloRemotingServiceClient\HelloRemotingServiceClient.csproj", "{B64BEF1D-7F6B-4206-97FB-64E3B1721D75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWcfService", "HelloWcfService\HelloWcfService.csproj", "{43DECE93-AF97-47C5-B115-865F51A2CB3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,10 @@ Global
 		{B64BEF1D-7F6B-4206-97FB-64E3B1721D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B64BEF1D-7F6B-4206-97FB-64E3B1721D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B64BEF1D-7F6B-4206-97FB-64E3B1721D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43DECE93-AF97-47C5-B115-865F51A2CB3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43DECE93-AF97-47C5-B115-865F51A2CB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43DECE93-AF97-47C5-B115-865F51A2CB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43DECE93-AF97-47C5-B115-865F51A2CB3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
