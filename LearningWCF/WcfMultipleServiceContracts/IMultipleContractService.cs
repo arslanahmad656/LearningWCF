@@ -10,13 +10,14 @@ namespace WcfMultipleServiceContracts
     [ServiceContract]
     public interface IPublicService
     {
-        [OperationContract]
+        [OperationContract(Name = "DisplayMessagePublic")]
         string DisplayMessage();
     }
 
+    [ServiceContract]
     public interface IPrivateService
     {
-        [OperationContract]
+        [OperationContract(Name = "DisplayMessagePrivate")]
         string DisplayMessage();
     }
 }
