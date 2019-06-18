@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWcfServiceWebClient", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfMultipleServiceContracts", "WcfMultipleServiceContracts\WcfMultipleServiceContracts.csproj", "{31D4158E-5EAF-4172-932A-CABA5B1B16B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfMultipleServiceContractsHost", "WcfMultipleServiceContractsHost\WcfMultipleServiceContractsHost.csproj", "{B8AF13B9-6E1B-4DB2-AF33-14E88905623B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +74,10 @@ Global
 		{31D4158E-5EAF-4172-932A-CABA5B1B16B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31D4158E-5EAF-4172-932A-CABA5B1B16B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31D4158E-5EAF-4172-932A-CABA5B1B16B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8AF13B9-6E1B-4DB2-AF33-14E88905623B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8AF13B9-6E1B-4DB2-AF33-14E88905623B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8AF13B9-6E1B-4DB2-AF33-14E88905623B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8AF13B9-6E1B-4DB2-AF33-14E88905623B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
