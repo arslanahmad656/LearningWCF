@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebService1", "WebService1\WebService1.csproj", "{061A16FA-1C01-4535-872B-7FF655324AD1}"
 EndProject
@@ -29,6 +29,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfMultipleServiceContractsHost", "WcfMultipleServiceContractsHost\WcfMultipleServiceContractsHost.csproj", "{B8AF13B9-6E1B-4DB2-AF33-14E88905623B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfClient", "WcfClient\WcfClient.csproj", "{6DF641EF-24C8-47E2-A8A7-E10FC75FE3AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeService", "PracticeService\PracticeService.csproj", "{9F4011C8-E88A-4AB8-8896-473F4457791C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeServiceHost", "PracticeServiceHost\PracticeServiceHost.csproj", "{13F4E5AF-244C-4F48-8BE4-F4646564B871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeServiceClient", "PracticeServiceClient\PracticeServiceClient.csproj", "{7CB2D964-4647-4A08-8092-F24F4938B221}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -84,6 +90,18 @@ Global
 		{6DF641EF-24C8-47E2-A8A7-E10FC75FE3AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DF641EF-24C8-47E2-A8A7-E10FC75FE3AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DF641EF-24C8-47E2-A8A7-E10FC75FE3AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F4011C8-E88A-4AB8-8896-473F4457791C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F4011C8-E88A-4AB8-8896-473F4457791C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F4011C8-E88A-4AB8-8896-473F4457791C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F4011C8-E88A-4AB8-8896-473F4457791C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13F4E5AF-244C-4F48-8BE4-F4646564B871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F4E5AF-244C-4F48-8BE4-F4646564B871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F4E5AF-244C-4F48-8BE4-F4646564B871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F4E5AF-244C-4F48-8BE4-F4646564B871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CB2D964-4647-4A08-8092-F24F4938B221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB2D964-4647-4A08-8092-F24F4938B221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB2D964-4647-4A08-8092-F24F4938B221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB2D964-4647-4A08-8092-F24F4938B221}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
